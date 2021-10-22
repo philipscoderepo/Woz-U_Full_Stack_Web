@@ -1,0 +1,8 @@
+<div>
+  <h3>Contacts:</h3>
+    <div *ngFor="let contact of contacts">
+      <div class="contact-container">
+      <p>{{contact.firstName}} {{contact.lastName}}</p>
+      <p>Phone Number: {{contact.phoneNumber}} Email: {{contact.email}}</p>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Lesson</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css" 
+            integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN" 
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 style="text-align: center; background-color: rgb(95, 132, 145);">My Page</h1>
+            <div style="text-align: center; font-size: large; height: 2rem; background-color: rgb(95, 132, 145);">Enter your information below to recieve a news letter</div>
+        </div>
+        <div class="container" style="padding-bottom: 5rem;">
+            <form>
+                <div class="form-inline" style="padding: 1rem;">
+                    <label for="name" class="form-control" style="background-color:rgb(95, 132, 145); color:seashell;">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="First Name">
+                    <input type="text" class="form-control" id="name" placeholder="Last Name">
+                </div>
+                <div class="form-group" style="padding: 1rem;">
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="number" class="form-control" id="phone-number" placeholder="(xxx)xxx-xxxx">
+                </div>
+                <div class="form-group" style="padding: 1rem;">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="example@email.com">
+                </div>
+                <div class="form-inline" style="padding: .5rem;">
+                    <button class="btn btn-primary">Submit</button>
+                    <button class="btn btn-secondary">Cancel</button>
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <h2 style="text-align: center; background-color: rgb(95, 132, 145);">About Me</h2>
+        </div>
+        <div class="container">
+            <div class="row" style="padding-bottom: 5rem;">
+                <img class="col" src="https://media-exp1.licdn.com/dms/image/C5603AQHcq747LBae5g/profile-displayphoto-shrink_800_800/0/1592508806690?e=1638403200&v=beta&t=HRgrbSCcygUHu6i29-wOHTMT6zqpMIcYKORmMSG2aXE">
+                <div class="col" style="font-size: 20px;">
+                    I was born in California in silicon valley in the year of 1999. 
+                    It was interesting that I was born in silicon valley and am now working to get a job in software development.
+                    I guess it was always meant to be.
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>

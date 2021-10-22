@@ -1,0 +1,40 @@
+Create a file named 'index.ts'
+
+create a file named 'package.json' and insert (properties with *, fill in the appropriate data)
+
+{
+    "name": "*project_name",
+    "version": "1.0.0",
+    "description": "*description",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc && node index.js"
+    }
+}
+
+run cmd 'tsc --init' to create 'tsconfig.json'
+
+run cmd 'npm start' to create 'index.js'
+
+
+istall angular cli run cmd 'npm install -g @angular/cli'
+
+create a new angular project 'ng new *project_name'
+
+open project run cmd 'ng serve --open'
+
+create a model run cmd 'ng generate class shared/models/*class_name --type=model'
+create a sevice run cmd 'ng generate service services/*service_name'
+create a componenet run cmd 'ng generate component modules/*class_name/components/*component_name'
+
+npm install typescript@2.8 --save-dev
+
+npm install rxjs
+
+create a new module run cmd 'ng g m modules/*new_module_name' //'g' stands for generate and 'm' stands for module 
+
+intall routing in the root directory run cmd 'ng g m app-routing --flat --module=app'
+
+install a mock json server run cmd 'npm install -g json-server'
+
+start json server run cmd 'json-server --watch mockdb.json'

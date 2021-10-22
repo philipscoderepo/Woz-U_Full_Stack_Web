@@ -1,0 +1,9 @@
+<h1>
+  Favorite Places:
+</h1>
+<ul>
+  <li *ngFor="let place of places">
+    <h2>{{place.id + 1}}. {{place.city}}, {{place.country}}</h2>
+    <p>{{place.description}}</p>
+  </li>
+</ul>

@@ -1,0 +1,40 @@
+body{
+    background-image: url("imgs/background.jpg");
+}
+
+h1{
+    text-align: center;
+}
+
+#contents{
+    background-color: beige;
+}
+
+#name{
+    text-align: center;
+}
+
+#birthday{
+    text-align: center;
+}
+
+button{
+    background-color: cornflowerblue;
+
+}
+
+#bio{
+    text-align: center;
+}
+
+#button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-box{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}

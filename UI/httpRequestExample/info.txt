@@ -1,0 +1,1 @@
+<h1 style="color: blue">This text was changed using an asynchronous AJAX request</h1>

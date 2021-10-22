@@ -1,0 +1,11 @@
+<div class="movies">
+  <h2>
+    Movies:
+  </h2>
+  <ul>
+    <li *ngFor="let movie of movies">
+      <p>{{movie.id + 1}}. {{movie.title}}: {{movie.director}}</p>
+      <img [src]='movie.image_url' />
+    </li>
+  </ul>
+</div>

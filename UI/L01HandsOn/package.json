@@ -1,0 +1,14 @@
+{
+  "name": "l01handson",
+  "version": "1.0.0",
+  "description": "Lesson 1 hands on ",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Philip Tasabia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

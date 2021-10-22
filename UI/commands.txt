@@ -1,0 +1,6 @@
+run cmd 'npm init' to create 'package.json'
+
+run 'npm install express --save'
+
+run 'http-server' to start the request server
+

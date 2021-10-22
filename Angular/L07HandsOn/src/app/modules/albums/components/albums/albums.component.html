@@ -1,0 +1,9 @@
+<h2>Albums</h2>
+
+<p>The Beatles wrote many successful albums together. Below is a list of several of there more popular albums.</p>
+<ul>
+  <li *ngFor="let album of albums">
+    <p>{{album.id + 1}}. {{album.title}}, {{album.yearReleased}}</p>
+  </li>
+</ul>
+ 

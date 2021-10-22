@@ -1,0 +1,7 @@
+copy starter project
+
+run cmd 'npm install'
+
+run cmd 'npm audit fix' to update 
+
+run cmd 'npm start' to open in webpage

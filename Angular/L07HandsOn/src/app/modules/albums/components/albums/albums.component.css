@@ -1,0 +1,14 @@
+ul {
+    list-style-type: none;
+}
+p {
+    color: rgb(247, 236, 236);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+}
+h2 {
+    color: rgb(240, 199, 199);
+    text-align: center;
+    font-size: 3em;
+} 

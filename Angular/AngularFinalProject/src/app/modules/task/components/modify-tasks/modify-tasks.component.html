@@ -1,0 +1,7 @@
+<div class="tasks">
+    <h1>Task Board</h1>
+    <app-create-task></app-create-task>
+    <app-modify-task *ngFor="let task of tasks" [task]="task" 
+    (taskDeleted)="onTaskDeleted($event)">
+    </app-modify-task>
+  </div>

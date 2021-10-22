@@ -1,0 +1,35 @@
+.header{
+    background-color: lightcoral; 
+    height: 3rem; 
+    margin: auto;
+    text-align: center; 
+    line-height: 3rem;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+
+.input{
+    color: red;
+}
+
+body{
+    background-image: url("background.jpg");
+    color: rgb(0, 88, 88);
+}
+
+p{
+    color:rgb(0, 88, 88);
+}
+
+div{
+    background-color: bisque;
+    color: rgb(0, 88, 88);
+}
+
+.contain{
+    border-style: solid;
+    border-color: black;
+    border-width: .5rem;
+    padding: 2rem;
+}
